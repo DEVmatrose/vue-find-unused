@@ -1,3 +1,4 @@
+
 {
   "name": "vue-find-unused",
   "version": "1.0.0",
@@ -8,25 +9,28 @@
     "vue-find-unused": "./find-unused.mjs"
   },
   "scripts": {
-    "start": "node find-unused.mjs"
+    "start": "node find-unused.mjs",
+    "test": "echo \"No tests specified yet\" && exit 0"
   },
   "keywords": [
     "vue",
     "static-analysis",
     "dead-code",
-    "code-quality"
+    "code-quality",
+    "unused-files",
+    "vue-components"
   ],
-  "author": "Dein Name",
+  "author": "DEVmatrose",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dein-username/vue-find-unused.git"
+    "url": "git+https://github.com/DEVmatrose/vue-find-unused.git"
   },
   "bugs": {
-    "url": "https://github.com/dein-username/vue-find-unused/issues"
+    "url": "https://github.com/DEVmatrose/vue-find-unused/issues"
   },
-  "homepage": "https://github.com/dein-username/vue-find-unused#readme"
+  "homepage": "https://github.com/DEVmatrose/vue-find-unused#readme"
 }
