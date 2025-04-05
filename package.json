@@ -1,0 +1,32 @@
+{
+  "name": "vue-find-unused",
+  "version": "1.0.0",
+  "description": "Ein Tool zur Analyse und Erkennung ungenutzter Dateien in Vue.js-Projekten",
+  "main": "find-unused.mjs",
+  "type": "module",
+  "bin": {
+    "vue-find-unused": "./find-unused.mjs"
+  },
+  "scripts": {
+    "start": "node find-unused.mjs"
+  },
+  "keywords": [
+    "vue",
+    "static-analysis",
+    "dead-code",
+    "code-quality"
+  ],
+  "author": "Dein Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dein-username/vue-find-unused.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dein-username/vue-find-unused/issues"
+  },
+  "homepage": "https://github.com/dein-username/vue-find-unused#readme"
+}
